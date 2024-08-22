@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+input:active {
+    border: 1px solid rgb(22, 102, 255);
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+button {
+    padding: 1em;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+    font-weight: bold;
+}
+
+#loginBtn {
+    background-color: rgb(22, 102, 255);
+}
+
+#newAcctBttn {
+    background-color: rgb(66, 184, 42);
+}
+
+.main-container {
+    background-color: white;
+    width: 25vw;
+    height: 30vh;
+    padding: 1em;
+    box-shadow: 0px 10px 40px -10px darkgray;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.5em;
+}
+
+.main-container > a {
+    color: rgb(22, 102, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
